@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: Poppins, sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.button{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*Start Header*/
+
+.header{
+    white-space: nowrap;
+    width: 100%;
+    position: absolute;
+    background: rgb(2, 1, 0);
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-block{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 566px;
+}
+
+.header__nav-title{
+    padding: 54px 0;
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.header__nav-menu{
+    padding: 60px 0;
+    display: flex;
+    column-gap: 88px;
+}
+
+.header__nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__nav-btn{
+    margin-left: 36px;
+    padding: 10px 28px;
+    border-radius: 6px;
+    background: rgb(250, 144, 33);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.first__block{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first__block-box-left{
+    margin-right: 30px;
+}
+
+.first__block-box-left-title{
+    color: rgb(232, 125, 14);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.first__block-box-left-title2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 26px;
+}
+
+.first__block-box-left-text{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 200%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.first__block-box-left-btn{
+    border-radius: 40px;
+    background: linear-gradient(112.96deg, rgb(250, 131, 5) 1.518%,rgb(251, 158, 60) 117.454%);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
