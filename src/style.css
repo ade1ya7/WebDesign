@@ -29,7 +29,6 @@ img{
 .header{
     white-space: nowrap;
     width: 100%;
-    position: absolute;
     background: rgb(2, 1, 0);
 }
 
@@ -121,6 +120,210 @@ img{
     text-align: center;
     padding: 15px 30px;
 }
+
+/*Start Second*/
+
+.second{
+    background: linear-gradient(180.00deg, rgb(0, 0, 0),rgb(74, 40, 0) 130.42%);
+}
+
+.second__block-top{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second__block-top-title{
+    color: rgb(255, 255, 255);
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.second__block-top-btn{
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.11);
+}
+
+.second__block-bottom{
+    padding-top: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second__block-bottom-box-img{
+    border-radius: 20px;
+}
+
+.second__block-box-bottom{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.second__block-bottom-box-img-text{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.second__title{
+    margin-top: 129px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 187.5%;
+    text-align: center;
+}
+
+.second__title2{
+    margin-top: 67px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.second__text{
+    margin-top: 32px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 187.5%;
+    text-align: left;
+}
+
+.second__img{
+    margin-top: 46px;
+    margin-bottom: 157px;
+}
+
+/*Start Third*/
+
+.third{
+    background: black url("./assets/img/third.png") center/cover no-repeat;
+}
+
+.third__title{
+    padding-top: 93px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 187.5%;
+    text-align: center;
+}
+
+.third__text{
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 187.5%;
+    text-align: center;
+}
+
+.third__block-top{
+    text-align: center;
+    display: flex;
+    column-gap: 100px;
+    justify-items: center;
+}
+
+.third__block-box{
+    padding-top: 100px;
+}
+
+.third__block-img{
+    border-radius: 50px;
+}
+
+.third__block-text{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.third__block-img2{
+    margin-top: 25px;
+}
+
+.third__block-bottom{
+    text-align: center;
+    column-gap: 100px;
+    justify-content: center;
+    padding-top: 62px;
+    display: flex;
+}
+
+/*Start Fourth*/
+
+.fourth{
+    background: linear-gradient(151.89deg, rgb(9, 3, 0) 10.901%,rgba(9, 3, 0, 0) 207.68%);
+}
+
+.fourth__title{
+    padding-top: 148px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.fourth__text{
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 187.5%;
+    text-align: center;
+}
+
+.fourth__block{
+    margin-top: 71px;
+}
+
+.fourth__block-box-top{
+    column-gap: 27px;
+}
+
+.fourth__block-box-top-img{
+    border-radius: 20px;
+}
+
+.fourth__block-box-bottom{
+    margin-top: 33px;
+    column-gap: 27px;
+}
+
+.fourth__block-box-bottom-img{
+    border-radius: 20px;
+    padding-bottom: 72px;
+}
+
+.fourth__btn{
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.11);
+}
+
+
+
+
+
+
+
 
 
 
